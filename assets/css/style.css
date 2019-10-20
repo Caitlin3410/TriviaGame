@@ -1,10 +1,16 @@
 body {
-    background-image: url(https://images.unsplash.com/photo-1515703407324-5f753afd8be8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3367&q=80);
+    background-image: url(https://images.unsplash.com/photo-1517177646641-83fe10f14633?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2208&q=80);
     text-align: center;
 }
 
 .text-muted {
-    color: blue;
+    color: rgb(101, 101, 153);
+    font-size: 30px
+}
+
+.jumbotron {
+    background: white;
+    align: center;
 }
 
 .last-seconds {
@@ -12,5 +18,5 @@ body {
 }
 
 .option {
-    margin: 15px;
+    margin: 20px;
 }

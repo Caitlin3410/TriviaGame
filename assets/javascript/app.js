@@ -113,11 +113,11 @@ var trivia = {
         } else if (trivia.currentSet === Object.keys(trivia.questions).length) {
 
             $('#results')
-                .html('<h3>Thank you for playing!</h3>' +
+                .html('<h3>Thanks for playing!</h3>' +
                     '<p>Correct: ' + trivia.correct + '</p>' +
                     '<p>Incorrect: ' + trivia.incorrect + '</p>' +
                     '<p>Unaswered: ' + trivia.unanswered + '</p>' +
-                    '<p>Please play again!</p>');
+                    '<p>Try again!</p>');
 
 
             $('#game').hide();
